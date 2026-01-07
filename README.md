@@ -30,7 +30,11 @@ Each project focuses on solving a small, well-defined problem using **HTML, CSS,
 │   ├── styles.css
 │   └── script.js
 │
-├── Day-02-Coming-Soon/
+├── Day-02-To-do-list/
+│   ├── index.html
+│   ├── style.css
+|   └── script.js
+|
 ├── Day-03-Coming-Soon/
 ├── ...
 └── Day-12-Coming-Soon/
@@ -67,7 +71,7 @@ Each project focuses on solving a small, well-defined problem using **HTML, CSS,
 
 ## Progress
 - [x] Day 01 – Counter App
-- [ ] Day 02
+- [ ] Day 02 - To-do-list
 - [ ] Day 03
 - [ ] Day 04
 - [ ] Day 05
