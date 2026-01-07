@@ -30,7 +30,7 @@ It also marks **Day 1** of my *12 Days – 12 Projects* coding challenge.
 ```text
 counter/
 ├── index.html
-├── style.css
+├── styles.css
 └── script.js
 ```
 
