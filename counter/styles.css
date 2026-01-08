@@ -1,50 +1,67 @@
-#counter{
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: Arial, sans-serif;
-    text-align: center;
-    margin-top: 50px;
-    font-size: 10em;
-    display: block;
-    border: 1px solid #333;
-    border-radius: 10px;
-    background-color: hsl(0, 0%, 10%);
-    color: ivory;
-    padding: 40px;
-    
 }
-#mydiv{
-    text-align: center;
-    margin-top: 20px;
-    display: block;
-    border: 1px solid #333;
-    border-radius: 10px;
-    background-color: hsl(0, 0%, 10%);
-    padding: 25px;
 
-}
-.buttons{
-    font-size: 1.5em;
-    margin: 10px;
-    padding: 10px 20px;
-    cursor: pointer;
-    border: none;
-    border-radius: 5px;
-    background-color: #2ecc71;
-    color: white;
-    transition: background-color 0.3s, color 0.3s;
-}
-.buttons:hover{
-    background-color: hsl(145, 63%, 22%);
-    color: white;
-}
-#reset{
-    background-color: #e74c3c;
-}
-body{
-    background-color:#1e1e1e;
+body {
+    height: 100vh;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    margin: 0;
+    background: #121212;
+    color: #ffffff;
+}
+
+.counter-container {
+    background: #1e1e1e;
+    padding: 30px 40px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+}
+
+h1 {
+    margin-bottom: 15px;
+}
+
+#counter {
+    font-size: 64px;
+    margin: 20px 0;
+    display: block;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+button {
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+#decrement {
+    background: #e74c3c;
+    color: white;
+}
+
+#reset {
+    background: #f1c40f;
+    color: black;
+}
+
+#increment {
+    background: #2ecc71;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.85;
 }
