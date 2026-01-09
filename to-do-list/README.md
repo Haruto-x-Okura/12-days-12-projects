@@ -3,7 +3,8 @@
 A simple and clean **To-Do List web application** built using **HTML, CSS, and JavaScript**.  
 This project allows users to add tasks dynamically, mark them as completed, and delete tasks using a trash icon.
 
-🔗 **Live Demo:** https://todolistbyharuto.netlify.app/
+**Live Demo**
+🔗 https://todolistbyharuto.netlify.app/
 
 ---
 
@@ -17,13 +18,26 @@ This project allows users to add tasks dynamically, mark them as completed, and 
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Tech Stack
 
 - **HTML** – Structure of the application  
 - **CSS** – Styling and layout (custom green theme)  
 - **JavaScript** – DOM manipulation and interactivity  
 - **Font Awesome** – Icons  
 
+---
+
+## 🎯 Purpose
+
+This project was created to practice:
+
+- JavaScript event handling  
+- Dynamic DOM manipulation  
+- Creating and managing UI components programmatically  
+- Writing clean and readable frontend code  
+
+This project helps strengthen fundamental concepts required for building interactive web applications.
+It also marks **Day 2** of my *12 Days – 12 Projects* coding challenge.
 ---
 
 ## Project Structure
@@ -73,7 +87,7 @@ to-do-list/
 **Haruto**
 
 - GitHub: https://github.com/Haruto-x-Okura
-- Live Site: https://todolistbyharuto.netlify.app/
+- LinkedIn: https://www.linkedin.com/in/harsh-wardhan-singh-cse/
 
 ---
 
