@@ -47,7 +47,7 @@ Each project focuses on solving a small, well-defined problem using **HTML, CSS,
 | Day | Project Name | Live Demo |
 |----:|--------------|-----------|
 | 01  | Counter App  | Netlify |
-
+| 02  | To-do-list App  | Netlify |
 ---
 
 ## What I Am Learning
@@ -71,7 +71,7 @@ Each project focuses on solving a small, well-defined problem using **HTML, CSS,
 
 ## Progress
 - [x] Day 01 – Counter App
-- [ ] Day 02 - To-do-list
+- [x] Day 02 - To-do-list
 - [ ] Day 03
 - [ ] Day 04
 - [ ] Day 05
