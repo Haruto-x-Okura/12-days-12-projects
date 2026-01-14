@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tempify</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id = "app">
+        <h1>Welcome to Tempify</h1>
+        <p>Enter your Conversion Choice</p>
+        <div class="input-group">
+            <input type="number" id="inputValue" placeholder="Enter Temperature">
+        
+            <h2 class="heading">FROM</h2>
+            <input type = "radio" id = "celsius" name = "choice" value = "celsius">
+            <label for = "celsius">Celsius</label>
+            <input type = "radio" id = "fahrenheit" name = "choice" value = "fahrenheit">
+            <label for = "fahrenheit">Fahrenheit</label>
+            <input type = "radio" id = "kelvin" name = "choice" value = "kelvin">
+            <label for = "kelvin">Kelvin</label>  
+            <br>
+            <h2 class="heading">TO</h2>
+            <input type = "radio" id = "toCelsius" name = "toChoice" value = "toCelsius">
+            <label for = "toCelsius">Celsius</label>
+            <input type = "radio" id = "toFahrenheit" name = "toChoice" value = "toFahrenheit">
+            <label for = "toFahrenheit">Fahrenheit</label>
+            <input type = "radio" id = "toKelvin" name = "toChoice" value = "toKelvin">
+            <label for = "toKelvin">Kelvin</label>
+        </div>
+        <button id="convertBtn">Convert</button>
+        <h2 id="result"></h2>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
