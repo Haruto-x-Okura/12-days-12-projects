@@ -35,7 +35,11 @@ Each project focuses on solving a small, well-defined problem using **HTML, CSS,
 │   ├── style.css
 |   └── script.js
 |
-├── Day-03-Coming-Soon/
+├── Day-03-tempify/
+│   ├── index.html
+│   ├── style.css
+|   └── script.js
+|
 ├── ...
 └── Day-12-Coming-Soon/
 ```
@@ -48,6 +52,7 @@ Each project focuses on solving a small, well-defined problem using **HTML, CSS,
 |----:|--------------|-----------|
 | 01  | Counter App  | Netlify |
 | 02  | To-do-list App  | Netlify |
+| 03  | Tempify  | Netlify |
 ---
 
 ## What I Am Learning
@@ -72,7 +77,7 @@ Each project focuses on solving a small, well-defined problem using **HTML, CSS,
 ## Progress
 - [x] Day 01 – Counter App
 - [x] Day 02 - To-do-list
-- [ ] Day 03
+- [x] Day 03 - Tempify
 - [ ] Day 04
 - [ ] Day 05
 - [ ] Day 06
