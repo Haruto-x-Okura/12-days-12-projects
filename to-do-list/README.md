@@ -84,7 +84,7 @@ to-do-list/
 
 ## 👤 Author
 
-**Haruto**
+**Harsh Wardhan**
 
 - GitHub: https://github.com/Haruto-x-Okura
 - LinkedIn: https://www.linkedin.com/in/harsh-wardhan-singh-cse/
