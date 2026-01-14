@@ -74,7 +74,7 @@ tempify/
 ---
 
 ## 👤 Author
-Harsh Wardhan
+**Harsh Wardhan**
 
 - GitHub: https://github.com/Haruto-x-Okura
 - LinkedIn: https://www.linkedin.com/in/harsh-wardhan-singh-cse/
