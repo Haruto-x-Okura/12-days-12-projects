@@ -1,0 +1,147 @@
+@import "tailwindcss";
+
+/* ── Custom Theme ────────────────────────────────────────── */
+@theme {
+  --color-surface-dark: #0f1117;
+  --color-surface-card: #1a1d27;
+  --color-surface-input: #252836;
+  --color-border-subtle: #2e3140;
+  --color-border-focus: #6366f1;
+
+  --color-accent-indigo: #6366f1;
+  --color-accent-indigo-hover: #818cf8;
+  --color-accent-cyan: #22d3ee;
+  --color-accent-green: #34d399;
+  --color-accent-amber: #fbbf24;
+  --color-accent-red: #f87171;
+  --color-accent-purple: #a78bfa;
+
+  --color-text-primary: #f1f5f9;
+  --color-text-secondary: #94a3b8;
+  --color-text-muted: #64748b;
+
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", "Fira Code", monospace;
+
+  /* Mobile safe area insets */
+  --spacing-safe-area-top: env(safe-area-inset-top, 0px);
+  --spacing-safe-area-bottom: env(safe-area-inset-bottom, 0px);
+  --spacing-safe-area-left: env(safe-area-inset-left, 0px);
+  --spacing-safe-area-right: env(safe-area-inset-right, 0px);
+}
+
+/* ── Base resets ──────────────────────────────────────────── */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-surface-dark);
+  color: var(--color-text-primary);
+  min-height: 100vh;
+}
+
+/* ── Scrollbar styling ───────────────────────────────────── */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-surface-dark);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-border-subtle);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-text-muted);
+}
+
+/* ── Numeric input — hide spinners ───────────────────────── */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+/* ── Mobile-first touch optimizations ────────────────────── */
+.touch-manipulation {
+  touch-action: manipulation;
+}
+
+/* ── Safe area utilities ─────────────────────────────────── */
+.safe-area-pb {
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+.safe-area-pt {
+  padding-top: env(safe-area-inset-top, 0px);
+}
+
+.h-safe-area-inset-bottom {
+  height: env(safe-area-inset-bottom, 0px);
+}
+
+/* ── Mobile-specific improvements ────────────────────────── */
+@media (max-width: 767px) {
+  /* Prevent text size adjustment on orientation change */
+  html {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+
+  /* Ensure touch targets are at least 44px */
+  button, a, input, select, textarea {
+    min-height: 44px;
+  }
+
+  /* Disable tap highlight on mobile */
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  /* Prevent horizontal scroll */
+  body {
+    overflow-x: hidden;
+  }
+}
+
+/* ── Light mode overrides ────────────────────────────────── */
+.light-mode {
+  --color-surface-dark: #f8fafc;
+  --color-surface-card: #ffffff;
+  --color-surface-input: #f1f5f9;
+  --color-border-subtle: #e2e8f0;
+  --color-border-focus: #6366f1;
+
+  --color-text-primary: #0f172a;
+  --color-text-secondary: #475569;
+  --color-text-muted: #94a3b8;
+}
+
+/* ── Animation performance ───────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
